@@ -139,6 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Ex1_1.c" />
+    <ClCompile Include="Ex1_2.c" />
+    <ClCompile Include="Ex2_1.c" />
+    <ClCompile Include="Ex2_2.c" />
+    <ClCompile Include="Ex2_3.c" />
     <ClCompile Include="Textbook.c" />
   </ItemGroup>
   <ItemGroup>
