@@ -1,9 +1,9 @@
 // 예제 2-3
 
-//#include "exam2-3.h" //직접 만든 헤더파일은 ""로 감싸기
-//void main() {
-//	int add_result, sub_result;
-//	printf("10과 5를 더하면 %d이다. \n", ADD(10, 5));
-//	printf("10에서 5를 빼면 %d이다. \n", SUB(10, 5));
+//#include "exam2-3.h" //사용자가 직접 만든 사용자 헤더 파일은 ""로 감싼다. (기본 헤더는 <>로 감싼다.)
+//void main() {		   // 반환값이 없는(void) 메인 함수 선언
+//	int add_result, sub_result;  // 정수 add_result와 sub_result 선언
+//	printf("10과 5를 더하면 %d이다. \n", ADD(10, 5));  //사용자 헤더 파일 exam2-3.h에 선언 되어있는 매크로 함수 ADD(x, y) ((x) + (y))를 x=10, y=5와 같이 대입하고, 그 결과값을 문자열 내에 십진수 정수형으로 출력한다.
+//	printf("10에서 5를 빼면 %d이다. \n", SUB(10, 5));  //사용자 헤더 파일 exam2-3.h에 선언 되어있는 매크로 함수 SUB(x, y) ((x) - (y))를 x=10, y=5와 같이 대입하고, 그 결과값을 문자열 내에 십진수 정수형으로 출력한다.
 //
 //}
